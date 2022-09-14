@@ -21,10 +21,10 @@ const Contact = () => {
 
         emailjs
         .sendForm(
-            'outlook',
-            'templateId',
+            'service_yylixiq',
+            'template_rlf8gla',
             refForm.current,
-            'userToken'
+            'f2ZZDRQnob_8aS9gl'
         )
         .then(
             () => {
